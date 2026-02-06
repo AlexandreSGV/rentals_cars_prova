@@ -25,13 +25,13 @@
                            title="Visualizar">
                             <i class="bi bi-eye"></i>
                         </a>
-                        @can('update', $user)
+                        
                         <a href="{{ route('users.edit', $user) }}"
                            class="btn btn-sm btn-outline-primary"
                            title="Editar">
                             <i class="bi bi-pencil"></i>
                         </a>
-                        @endcan
+                        
                     </td>
                 </tr>
             @endforeach

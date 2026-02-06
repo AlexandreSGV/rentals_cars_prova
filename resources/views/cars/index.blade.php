@@ -16,9 +16,9 @@
                 <th>Modelo</th>
                 <th>Placa</th>
                 <th>Ano</th>
-                 @if (!Auth::user()->isCliente())
+                 
                 <th width="150">Ações</th>
-                @endif
+                
             </tr>
         </thead>
         <tbody>
@@ -28,7 +28,7 @@
                     <td>{{ $car->model }}</td>
                     <td>{{ $car->plate }}</td>
                     <td>{{ $car->year }}</td>
-                    @if (!Auth::user()->isCliente())
+                    
                     <td class="text-center">
                         <a href="{{ route('cars.show', $car) }}" 
                            class="btn btn-sm btn-outline-secondary"
@@ -54,7 +54,7 @@
                             </button>
                         </form>
                     </td>
-                    @endif
+                    
                 </tr>
             @endforeach
 
