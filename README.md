@@ -1,6 +1,6 @@
 ## Clone o repositório e prepare o ambiente do projeto:
-    git clone https://github.com/AlexandreSGV/rentals_cars_prova/edit/main/README.md
-    cd https://github.com/AlexandreSGV/rentals_cars_prova
+    git clone https://github.com/AlexandreSGV/rentals_cars_prova/
+    cd rentals_cars_prova
     cp .env.example .env
     code .
 
